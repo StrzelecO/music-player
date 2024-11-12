@@ -1,7 +1,7 @@
-export default function ControlButton({ icon, styles, onClick, title }) {
+export default function ControlButton({ icon, styles, ...props }) {
 	return (
 		<li>
-			<button className={styles} onClick={onClick} title={title}>
+			<button className={styles} {...props}>
 				{icon}
 			</button>
 		</li>

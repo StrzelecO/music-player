@@ -18,7 +18,7 @@ function App() {
 				) : (
 					<button
 						onClick={toggleSideBar}
-						className='absolute left-0 h-10 p-2 m-4 bg-gray-800 text-white uppercase hover:bg-gray-700 rounded-sm cursor-pointer transition-all'
+						className='absolute left-0 h-10 p-2 m-4 bg-gray-800 text-white uppercase hover:bg-gray-700 rounded-md cursor-pointer transition-all'
 					>
 						Playlist
 					</button>
